@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="LJZTestTipsView">
+            <rect key="frame" x="0.0" y="0.0" width="344" height="312"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ICO-iC-A2J">
+                    <rect key="frame" x="82" y="20" width="180" height="30"/>
+                    <color key="backgroundColor" red="0.211301247" green="0.8735678228" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="180" id="PCx-I6-UKb"/>
+                        <constraint firstAttribute="height" constant="30" id="ecv-jO-JMz"/>
+                    </constraints>
+                    <inset key="titleEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="王志康大傻逼1" image="fail"/>
+                    <connections>
+                        <action selector="btnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="Ccy-5G-3rA"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WUQ-AU-19r">
+                    <rect key="frame" x="82" y="60" width="180" height="30"/>
+                    <color key="backgroundColor" red="0.211301247" green="0.8735678228" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" title="王志康大傻逼2" image="fail"/>
+                    <connections>
+                        <action selector="btnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="wmb-X2-j92"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bAR-Kc-wPR">
+                    <rect key="frame" x="82" y="100" width="180" height="30"/>
+                    <color key="backgroundColor" red="0.211301247" green="0.8735678228" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" title="王志康大傻逼3" image="fail"/>
+                    <connections>
+                        <action selector="btnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="Z5g-3U-ftf"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qzc-nm-vL4">
+                    <rect key="frame" x="82" y="140" width="180" height="30"/>
+                    <color key="backgroundColor" red="0.211301247" green="0.8735678228" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" title="王志康大傻逼4" image="fail"/>
+                    <connections>
+                        <action selector="btnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="nxF-gu-qb6"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="14" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vMs-Bq-9eD">
+                    <rect key="frame" x="82" y="180" width="180" height="30"/>
+                    <color key="backgroundColor" red="0.211301247" green="0.8735678228" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" title="王志康大傻逼5" image="fail"/>
+                    <connections>
+                        <action selector="btnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="f2T-Ba-EEx"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jEb-WH-VEa">
+                    <rect key="frame" x="265" y="243" width="31" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="取消"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yp1-Zr-CeT">
+                    <rect key="frame" x="50" y="243" width="31" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="确定"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="0.71468472309999997" blue="0.011350116699999999" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="vMs-Bq-9eD" firstAttribute="top" secondItem="Qzc-nm-vL4" secondAttribute="bottom" constant="10" id="0GK-LF-uTh"/>
+                <constraint firstItem="Qzc-nm-vL4" firstAttribute="top" secondItem="bAR-Kc-wPR" secondAttribute="bottom" constant="10" id="0Hr-W8-w8j"/>
+                <constraint firstItem="vMs-Bq-9eD" firstAttribute="centerX" secondItem="Qzc-nm-vL4" secondAttribute="centerX" id="4BJ-qg-u08"/>
+                <constraint firstItem="WUQ-AU-19r" firstAttribute="width" secondItem="ICO-iC-A2J" secondAttribute="width" id="Do1-a1-NsD"/>
+                <constraint firstItem="WUQ-AU-19r" firstAttribute="height" secondItem="ICO-iC-A2J" secondAttribute="height" id="EBU-7D-MHb"/>
+                <constraint firstItem="vMs-Bq-9eD" firstAttribute="width" secondItem="Qzc-nm-vL4" secondAttribute="width" id="EBY-1r-LP6"/>
+                <constraint firstItem="WUQ-AU-19r" firstAttribute="centerX" secondItem="ICO-iC-A2J" secondAttribute="centerX" id="EhO-6g-vLb"/>
+                <constraint firstItem="bAR-Kc-wPR" firstAttribute="centerX" secondItem="WUQ-AU-19r" secondAttribute="centerX" id="Ihf-Ag-UVF"/>
+                <constraint firstItem="bAR-Kc-wPR" firstAttribute="height" secondItem="WUQ-AU-19r" secondAttribute="height" id="OVW-py-ZOW"/>
+                <constraint firstItem="vMs-Bq-9eD" firstAttribute="height" secondItem="Qzc-nm-vL4" secondAttribute="height" id="UfR-gh-meD"/>
+                <constraint firstItem="ICO-iC-A2J" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="c4w-2C-0ot"/>
+                <constraint firstItem="bAR-Kc-wPR" firstAttribute="top" secondItem="WUQ-AU-19r" secondAttribute="bottom" constant="10" id="dPO-Sn-Lzn"/>
+                <constraint firstItem="Qzc-nm-vL4" firstAttribute="centerX" secondItem="bAR-Kc-wPR" secondAttribute="centerX" id="g54-RO-jCv"/>
+                <constraint firstItem="Qzc-nm-vL4" firstAttribute="height" secondItem="bAR-Kc-wPR" secondAttribute="height" id="hgM-YA-hXi"/>
+                <constraint firstItem="WUQ-AU-19r" firstAttribute="top" secondItem="ICO-iC-A2J" secondAttribute="bottom" constant="10" id="i0A-Ta-3eP"/>
+                <constraint firstItem="bAR-Kc-wPR" firstAttribute="width" secondItem="WUQ-AU-19r" secondAttribute="width" id="ojy-U9-102"/>
+                <constraint firstItem="ICO-iC-A2J" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="w5y-Pd-YoA"/>
+                <constraint firstItem="Qzc-nm-vL4" firstAttribute="width" secondItem="bAR-Kc-wPR" secondAttribute="width" id="xLs-ow-ieh"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-171" y="-210"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="fail" width="23" height="23"/>
+    </resources>
+</document>
